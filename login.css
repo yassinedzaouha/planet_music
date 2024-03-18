@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("pic/dnn.jpg");
+    background-size: cover;
+}
+
+.w {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    color: white;
+    font-size: 40px;
+}
+
+.login {
+    font-family: sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    width: 302px;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px;
+    padding-top: 120px;
+    background: none;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.sign {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: white;
+}
+
+.Uname {
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+}
+
+.Pass {
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+
+}
+
+.create {
+    color: transparent;
+    background-color: #2e75eb;
+    width: 170px;
+    height: 35px;
+    margin: 7px 0px 0px 65px;
+    border: none;
+    border-radius: 10px;
+}
+
+b {
+    color: #2e75eb ;
+    text-shadow: 0px 1px 0px white;
+}
+
+.pp {
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+a {
+    color: gray;
+}
+
+.para {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 1px 6px #0a0a0a;
+    letter-spacing: 2px;
+    align-items: center;
+    position: absolute;
+    left: 155px;
+    top: 40%;
+}
+.t {
+    color: white;
+    position: absolute;
+    top: 237px;
+    left: 147px;
+    padding: 15px;
+    text-decoration: none;
+}
